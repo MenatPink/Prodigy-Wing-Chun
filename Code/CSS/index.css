@@ -1,0 +1,181 @@
+/*Section 1 Styles*/
+body{
+    background-color:#075585;
+    
+}
+section{
+     width:100%;
+    height:35em;
+}
+div{
+    margin:0;
+    padding:0;
+}
+.Section1{ background:url("/Images/Photos/KarateRoundHouseKick.jpg") no-repeat;
+    background-size:cover;
+    
+}
+.Section1 img{
+    width:100px;
+    height:100px;
+    margin: 1.9em 0.2em 0.4em 1em;
+    display:inline-block;
+}
+h1{
+    float:right;
+    display:inline-block;
+    color:white;
+    font-family:Coda Caption, sans-serif;
+    font-size:45px;
+    margin:1.2em 1.7em 0em 0.2em;
+}
+/*Section2 Styles*/
+.Section2{
+    background:linear-gradient(10deg, #390000, black);
+    transform-origin:top left;
+    -ms-transform: skewY(-10deg);
+    -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+.Section2 h1, h2, p{
+    -ms-transform:skewY(10deg);
+    -webkit-transform:skewY(10deg);
+    transform:skewY(10deg);
+}
+h2{
+    display:inline-block;
+    color:white;
+    font-size:70px;
+    cursor:pointer;
+}
+h2:hover{
+    text-shadow:0px 0px 5px white;
+}
+h2:nth-of-type(1){
+    left:4%;
+    top:1.9em;
+    position:relative;
+}
+h2:nth-of-type(2){
+    left:90%;
+    top:-1em;
+    position:relative;
+/*    Arbitrary diagnol movement caused by skewing of parent div. can be corrected by overlaying a div between background and content, with an opposite skewing and gradient. Parent section would need an overflow hide styling.*/
+}
+.Carousel{
+    transform:skewY(10deg);
+    margin-left:18%;
+    margin-right:25%;
+    margin-top:7em;
+    width:60%;
+    height:10em;
+    overflow:hidden;
+ 
+}
+button{
+    display:none !important;
+}
+p{
+    transform:skewY(0deg);
+    font-family:Lato,sans-serif;
+    font-size:20px;
+    color:white;
+    text-align:center;
+}
+/*.Section3 Styles*/
+.Section3{
+    background:linear-gradient(rgba(0,0,0,0),#093b5a);
+    overflow:hidden;
+}
+.Section3 h1{
+    display:block;
+    width:50%;
+    font-size:70px;
+    text-align:center;
+    float:initial;
+    margin:0 auto;
+}
+.PlansContainer{
+    width:100%;
+    display:flex;
+    margin-top:9em;
+    justify-content:space-around;
+}
+.PaymentPlan{
+    color:#d6d6d6;
+    border-radius:20px;
+    background-color:#0b466c;
+    width:30%;
+    height:25em;
+    text-align:center;
+    box-shadow:0px -2px 12px white;
+    cursor:pointer;
+}
+.PaymentPlan:hover{
+    transform:translateY(-1em);
+    transition:transform 1s;
+}
+.PaymentPlan h3{
+    font-size:2em;
+    font-family:Lato;
+    text-shadow:0px 0px 3px white;
+}
+ul li{
+    font-family:Lato;
+    color:white;
+    margin:0.6em 1em;
+    list-style-type:none;
+    min-width:30px;
+}
+b{
+    font-size:1.1em;
+}
+
+/*Section 4 Styles*/
+.Section4{
+    position:relative;
+   background-color:#474747;
+}
+.Section4 h1{
+    text-align:center;
+    display:block;
+    float:initial;
+    padding-top:1em;
+    margin:0;
+}
+.Section4 ul{
+    margin-top:8em;
+    display:inline-block;
+    margin-left:2em;
+    width:20em;
+    height:13em;
+    text-align:center;
+    float:left;
+    
+}
+.Section4 li{
+    font-size:1.5em;
+    padding:2px;
+    margin:0;
+}
+.Section4 img{
+    display:inline-block;
+    margin-top:7em;
+    margin-right:2em;
+    width:300px;
+    float:right;
+    
+}
+.Section4 p{
+    margin-top:50em;
+    display:inline-block;
+   padding:0;
+    font-size:9px;
+    width:140px;
+    transform:initial;
+    height:10px;
+    overflow:hidden;
+    clear:both;
+}
+
+
